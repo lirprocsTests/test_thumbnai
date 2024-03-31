@@ -1,0 +1,1 @@
+[![Go Test](https://github.com/lirprocs/thumbnail/actions/workflows/test.yml/badge.svg)](https://github.com/lirprocs/thumbnail/actions/workflows/test.yml)
