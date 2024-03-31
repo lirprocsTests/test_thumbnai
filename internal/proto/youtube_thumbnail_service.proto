@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package youtube;
+
+option go_package = "internal/proto/gen/";
+
+// Определение сообщений
+message ThumbnailRequest {
+  string video_link = 1;
+}
+
+message ThumbnailResponse {
+  string thumbnail = 1;
+}
+
+// Определение сервиса
+service ThumbnailService {
+  rpc GetThumbnail (ThumbnailRequest) returns (ThumbnailResponse) {}
+}
