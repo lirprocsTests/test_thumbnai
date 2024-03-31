@@ -8,7 +8,7 @@
 ```bash
 git clone https://github.com/lirprocs/thumbnail.git
 ```
-2. Перейдите в директорию проекта и выполните:
+2. Перейдите в директорию проекта:
 ```bash
 cd thumbnail
 ```
