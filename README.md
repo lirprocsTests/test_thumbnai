@@ -45,6 +45,7 @@ go build -o my.exe  cmd\thumbnail_cli\main_cli.go
 ```bash
 ./my.exe --async https://www.youtube.com/watch?v=446E-r0rXHI https://www.youtube.com/watch?v=5C_HPTJg5ek
 ```
+5. Полученные изображения хранятся в thumbnail/IMG
 
 ## Примичание
 В проекте thumbnail настроен автоматический запуск тестов при пуше изменений в репозиторий. При отправке изменений на GitHub, GitHub Actions автоматически запустит тесты для проверки работоспособности кода.
