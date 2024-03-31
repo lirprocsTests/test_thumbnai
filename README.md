@@ -28,15 +28,20 @@ go run cmd/thumbnail/main.go
 ```
 
 ## Запуск утилиты командной строки
-1. Соберите утилиту:
+1. Откройте второе окно терминала.
+2. Перейдите в директорию проекта (Не нужно, еслу уже находитесь в ней):
+```bash
+cd thumbnail
+```
+3. Соберите утилиту:
 ```bash
 go build -o my.exe  cmd\thumbnail_cli\main_cli.go
 ```
-2. Запустите утилиту для загрузки миниатюры видеоролика с YouTube:
+4. Запустите утилиту для загрузки миниатюры видеоролика с YouTube:
 ```bash
 ./my.exe https://www.youtube.com/watch?v=446E-r0rXHI
 ```
-2.1. Для асинхронной загрузки миниатюр видеороликов используйте флаг --async:
+4.1. Для асинхронной загрузки миниатюр видеороликов используйте флаг --async:
 ```bash
 ./my.exe --async https://www.youtube.com/watch?v=446E-r0rXHI https://www.youtube.com/watch?v=5C_HPTJg5ek
 ```
