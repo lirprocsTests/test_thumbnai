@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	"thumbnail/internal/database"
-	pb "thumbnail/internal/proto/gen" // Импорт сгенерированных protobuf-файлов
+	pb "thumbnail/internal/proto/gen"
 )
 
 // Server представляет gRPC сервер
