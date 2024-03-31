@@ -1,7 +1,7 @@
 # Thumbnail    [![Go Test](https://github.com/lirprocs/thumbnail/actions/workflows/test.yml/badge.svg)](https://github.com/lirprocs/thumbnail/actions/workflows/test.yml)
 
 ## Описание
-Проект thumbnail предоставляет сервер и утилиту командной строки для загрузки и кэширования миниатюр видеороликов с YouTube.
+Проект thumbnail предоставляет сервер и утилиту командной строки для загрузки и кэширования миниатюр видеороликов с YouTube. Для кеширования используется SQLite.
 
 ## Установка
 1. Клонируйте репозиторий
@@ -18,7 +18,7 @@ go mod tidy
 ```
 
 ## Запуск сервера
-1. Перейдите в директорию проекта:
+1. Перейдите в директорию проекта (Не нужно, еслу уже находитесь в ней):
 ```bash
 cd thumbnail
 ```
